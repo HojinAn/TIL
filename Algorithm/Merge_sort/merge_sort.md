@@ -30,10 +30,11 @@ def mergesort (S):
         print("V =", V)
         return merge(U,V)
 ```
+
 이 코드의 문제점?  
 리스트 S외에 U, V를 추가적으로 사용함으로 메모리 비효율성 초래(대략 2n개)
 
-```
+```python
 def merge02 (S, low, mid, high):
     U = []
     i = low
@@ -60,5 +61,6 @@ def mergesort2 (S, low, high):
         print(S[low : high + 1])
         merge02(S, low, mid, high)
 ```
+
 > low, mid, high 포인터를 이용해서 해결해줄 수 있다.  
 > 그래도 추가 메모리 필요(대략 n개)
