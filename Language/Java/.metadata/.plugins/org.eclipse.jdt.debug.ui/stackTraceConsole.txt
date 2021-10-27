@@ -1,0 +1,2 @@
+Description	Resource	Path	Location	Type
+Build path specifies execution environment JavaSE-16. There are no JREs installed in the workspace that are strictly compatible with this environment. 	Linkedlist		Build path	JRE System Library Problem

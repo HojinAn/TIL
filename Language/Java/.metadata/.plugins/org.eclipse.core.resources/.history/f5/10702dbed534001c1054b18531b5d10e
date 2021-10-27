@@ -1,0 +1,14 @@
+
+public class ExceptionApp {
+
+	public static void main(String[] args) {
+		int[] scores = {1,2,3};
+		try {
+			System.out.println(scores[3]);
+		} catch(ArithmeticException e) {
+			
+		}
+
+	}
+
+}
