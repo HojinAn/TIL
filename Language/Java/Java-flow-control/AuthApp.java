@@ -1,24 +1,34 @@
 public class AuthApp {
  
     public static void main(String[] args) {
-         
-        String[] users = {"egoing", "jinhuck", "youbin"};
+        
+//    	String id = "egoing";
+//        String inputId = args[0];
+//         
+//        System.out.println("Hi.");
+//         
+//        //if(inputId == id) {
+//        if(inputId.equals(id)) {
+//            System.out.println("Master!");
+//        } else {
+//            System.out.println("Who are you?");
+//        }
+    	
+        String id = "egoing";
         String inputId = args[0];
          
-        boolean isLogined = false;
-        for(int i=0; i<users.length; i++) {
-            String currentId = users[i];
-            if(currentId.equals(inputId)) {
-                isLogined = true;
-                break;
-            }
-        }
-        System.out.println("Hi,");
-        if(isLogined) {
-            System.out.println("Master!!");
+        String pass = "1111";
+        String inputPass = args[1];
+         
+        System.out.println("Hi.");
+         
+        if(inputId.equals(id) && inputPass.equals(pass)) { //논리 연산자 &&
+            System.out.println("Master!");
         } else {
             System.out.println("Who are you?");
-        }
+        }       
+    	
+
  
     }
  
