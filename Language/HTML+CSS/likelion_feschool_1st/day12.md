@@ -176,5 +176,5 @@ content가 맨 앞, :after, :before가 element보다 앞에 있다
 - css 무시하지 마라!! Sass를 통해서 CSS로
 - input type 참고할만한 좋은 자료
 
-![Copyright @dreamfulbud](./img/input type.png)
+<img src="img/input type.png" width="400px" alt="inputType"></img>
 Copyright @dreamfulbud
