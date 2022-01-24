@@ -4,7 +4,7 @@ n, m, r = map(int, input().split())
 arr = [list(map(int, input().split())) for _ in range(n)]
 
 for _ in range(r):
-  for i in range(n//2):
+  for i in range(min(n,m)//2):
     temp = arr[i][i]
     boundary_x = n - i - 1
     boundary_y = m - i - 1
